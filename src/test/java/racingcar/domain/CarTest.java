@@ -6,6 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+
 import racingcar.util.TestRandomNumberGenerator;
 
 class CarTest {
@@ -30,7 +31,9 @@ class CarTest {
   @DisplayName("moveCar() 메소드를 통해서 현재 위치 상태를 변경할 수 있는가")
   public void changePositionUsingMethod() {
     //given
+
     Car car = Car.createCar("aaa");
+
     int initPosition = car.getPosition();
 
     //when
