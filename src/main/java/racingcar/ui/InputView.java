@@ -2,6 +2,7 @@ package racingcar.ui;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+
 import racingcar.util.UserInputValidator;
 
 public class InputView {
